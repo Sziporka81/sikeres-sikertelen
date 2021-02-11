@@ -1,6 +1,20 @@
-.piros li{
+body{
+    margin: 0;
+    background-color: rgb(217, 247, 237);
 
 }
-.zold li{
-
+*{
+    box-sizing: border-box;
+}
+.piros{
+ float: left;
+ margin-left: 20%;
+ border: 3px red;
+ border: 5px;
+}
+.zold{
+ float: right;
+ margin-right: 20%;
+ border:3px green;
+ border-radius: 5px;
 }
