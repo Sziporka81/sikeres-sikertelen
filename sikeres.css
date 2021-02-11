@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    background-color: rgb(217, 247, 237);
+    background-color: rgb(243, 249, 252);
 }
 *{
     box-sizing: border-box;
@@ -21,11 +21,16 @@ body{
 .zold{
     width: 19%;
     float: right;
+    margin: -12%;
     margin-right: 22%;
+    
 }
 nav{
     border-radius: 15px;
 }
-.nyilak{
-    
+div.nyilak{
+    background-position: center center;
+    margin-left: 42%;
+    margin-right: 42%;
 }
+
