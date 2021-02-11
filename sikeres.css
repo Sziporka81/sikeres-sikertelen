@@ -12,9 +12,15 @@ body{
  border: 3px red;
  border: 5px;
 }
+.piros li{
+    list-style-image: url('icon_bad.png');
+}
 .zold{
  float: right;
  margin-right: 20%;
  border:3px green;
  border-radius: 5px;
+}
+.zold li{
+    list-style-image: url('icon_good.png');
 }
