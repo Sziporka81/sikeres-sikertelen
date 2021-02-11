@@ -35,8 +35,13 @@ body{
     margin-top:-38%;
     margin-right: 22%;
 }
-nav{
+nav.doboz1{
     border-radius: 15px;
+    box-shadow: 5px 5px  5px red;
+}
+nav.doboz2{
+    border-radius: 15px;
+    box-shadow: 5px 5px  5px green;
 }
 div.nyilak{
     margin-left: 42%;
