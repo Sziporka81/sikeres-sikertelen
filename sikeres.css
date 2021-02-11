@@ -10,7 +10,7 @@ body{
     clear: both;
     display: table;
 }
-.zold::after {
+.kek::after {
     content: "";
     clear: both;
     display: table;
@@ -32,8 +32,8 @@ body{
 .zold{
     width: 19%;
     float: right;
-    margin-top:-38%;
-    margin-right: 22%;
+    margin-top:-44%;
+    margin-right: 24%;
 }
 nav.doboz1{
     border-radius: 15px;
@@ -44,7 +44,16 @@ nav.doboz2{
     box-shadow: 5px 5px  5px green;
 }
 div.nyilak{
-    margin-left: 42%;
+    margin-left: 43%;
     margin-right: 42%;
 }
-
+.kek{
+    background-color: blue;
+    width: 240px;
+    height: 75px;
+    border: 1px solid blue;
+}
+p{
+    color: khaki;
+    text-align: center;
+}
