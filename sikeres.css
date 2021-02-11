@@ -1,26 +1,31 @@
 body{
     margin: 0;
     background-color: rgb(217, 247, 237);
-
 }
 *{
     box-sizing: border-box;
 }
-.piros{
- float: left;
- margin-left: 20%;
- border: 3px red;
- border: 5px;
-}
 .piros li{
+    margin-left: 18%;
     list-style-image: url('icon_bad.png');
 }
-.zold{
- float: right;
- margin-right: 20%;
- border:3px green;
- border-radius: 5px;
+.piros{
+    width: 19%;
+    float: left;
+    margin-left: 22%;
 }
 .zold li{
+    margin-left: 18%;
     list-style-image: url('icon_good.png');
+}
+.zold{
+    width: 19%;
+    float: right;
+    margin-right: 22%;
+}
+nav{
+    border-radius: 15px;
+}
+.nyilak{
+    
 }
