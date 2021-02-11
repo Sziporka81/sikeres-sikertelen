@@ -17,7 +17,7 @@ body{
 }
 .piros li{
     margin-left: 18%;
-    list-style-image: url('icon_bad.png');
+    list-style-image: url('../képek/icon_bad.png');
 }
 .piros{
     position:absolute; left: 22%; top: 0;
@@ -26,7 +26,7 @@ body{
 } 
 .zold li{
     margin-left: 18%;
-    list-style-image: url('icon_good.png');
+    list-style-image: url('../képek/icon_good.png');
 }
 .zold{
     position:absolute; left: 58%; top: 0;
