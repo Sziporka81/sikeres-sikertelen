@@ -5,6 +5,16 @@ body{
 *{
     box-sizing: border-box;
 }
+.nyilak::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.zold::after {
+    content: "";
+    clear: both;
+    display: table;
+}
 .piros li{
     margin-left: 18%;
     list-style-image: url('icon_bad.png');
@@ -12,6 +22,7 @@ body{
 .piros{
     width: 19%;
     float: left;
+    margin: 1%;
     margin-left: 22%;
 }
 .zold li{
@@ -21,15 +32,13 @@ body{
 .zold{
     width: 19%;
     float: right;
-    margin: -12%;
+    margin-top:-38%;
     margin-right: 22%;
-    
 }
 nav{
     border-radius: 15px;
 }
 div.nyilak{
-    background-position: center center;
     margin-left: 42%;
     margin-right: 42%;
 }
