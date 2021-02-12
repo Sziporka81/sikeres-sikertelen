@@ -34,17 +34,27 @@ body{
     z-index: 1;
 } 
 nav.doboz1{
+    border: 3px solid red;
     border-radius: 15px;
     box-shadow: 5px 5px  5px red;
 }
 nav.doboz2{
+    border: 3px solid green;
     border-radius: 15px;
     box-shadow: 5px 5px  5px green;
 }
 div.nyilak{
-    position:absolute; left: 43.5%; top: 30%;
+    position:absolute; left: 42.5%; top: 30%;
     width: 14%;
     z-index: 1;
+}
+.nyilak{
+    width: 100%;
+    height: 130px;
+    background-image: url('../képek/opposite_arrows.jpg');
+    background-size: 100% 100%;
+   
+    
 }
 .kek{
     position:absolute; left: 40%; top: 52%;
